@@ -1,0 +1,226 @@
+Esta es una conversación con IA y las respuestas son generadas, por lo que pueden tener sesgos o no ser precisas.
+
+Hola, mi nombre es Martín Ferraro. Quiero que pienses en grande. Imagina una app que no solo resuelva problemas, sino que sorprenda y deleite. Necesito escuchar tus primeras ideas sobre cómo lograr que esta aplicación sea intuitiva, elegante y que haga sentir al cliente que está usando algo mágico. No quiero listas técnicas. Háblame de impacto, experiencia y visión. ¿Por dónde empezarías?
+Mensaje del estudianteBuenas tardes. Cuáles son los principales problemas que busca resolver?  Cuáles son las características que permitirán que la aplicación "sorprenda y deleite"? Con hacer sentir al cliente que está usando algo mágico se refiere a que la aplicación se intuitiva? Y qué más? Podría contarme sobre el impacto, experiencia y visión de la empresa antes de definir las de la aplicación?
+Martín Ferraro Mira, el problema es simple pero profundo: hoy pedir algo, esperar y no saber qué pasa genera ansiedad y desconfianza. Quiero que el cliente se sienta seguro, importante. La app debe anticipar necesidades, no solo contestar dudas. Sorprende cuando es invisible y eficiente, como un asistente que te lee la mente. Para mí, la magia es eliminar fricción, que todo fluya sin esfuerzo. Elegancia significa no recargar, solo mostrar lo esencial. El impacto: transformar el modo en que los clientes perciben nuestra marca. La experiencia: placer y facilidad, no frustración. La visión: ser líderes porque ofrecemos algo que otros ni imaginan. ¿Puedes traducir esto en requerimientos concretos sin perder esa esencia?
+Mensaje del estudianteOkey, querría una aplicación que permita todo el seguimiento de un paquete para generar más confianza en el usuario, la aplicación debe envíarle notificaciones al cliente sobre el seguimiento del cliente y permitirle visualizar el estado de envío del mismo. Es correcto, vinculado a ello, cree necesario agregar más funcionalidades en la aplicación?. Menciona que la app debe anticipar necesidades, podría permitir al usuario conectarse con un operador para realizar dudas sobre su paquete; está de acuerdo con esto?. Por lo que meciona la aplicación debe ser fácil de usar y tener lo esencial, esta debe permitirle al usuario acceder a la aplicación con su correo electrónico, ingresando un pin; luego, deberá ver una solapa o pantalla/interfaz donde diga algo como "Mis pedidos", donde al clickear pueda visualizar sus pedidos y  al acceder una línea con los diferentes estados del pedido, tales como: En preparación, esperando a ser despachado, pedido en camino, pedido entregado. Además, si desea que para eliminar la dricción y que todo fluya sin esfuerzo, en la misma pantalla/interfaz , le debería aparecer al usuario un rango horario en el que le llegará el pedido cuando este está siendo envíado, por otro lado, cuando el paquete está esperando a ser despachado al usuario le debería aparecer en el mismo lugar un rango de días en el que probablemente recibirá su paquete. Debajo de la línea de estado del pedido que visualiza el cliente, podría haber un botón que exprese de forma clara que sirve para comunicarse con un operador. Exprese, por favor, si está de acuerdo con estas ideas para luego transformarlos en requerimientos concretos, mencionando qué agregaría, modificaría, con cuales ideas de las mencionadas está de acuerdo y con cuales no en caso de que las haya. Gracias
+Martín Ferraro Me gusta la dirección: seguimiento claro, notificaciones precisas, acceso sencillo. Pero cuidado, no quiero una app "genérica de paquetería". Lo de anticipar horarios me parece clave, pero debe sentirse instantáneo, no "estimado". El contacto con operador está bien, pero ¿y si la app resuelve el 90% de dudas sin intervención humana? Quiero que el usuario sienta que Mercury lo entiende antes de preguntar. Visualiza esto: abres la app y ya sabes dónde está tu pedido, cuándo llega y si hay algún problema, todo sin buscar. Elegancia significa que el usuario no piense en cómo navegar, solo lo disfruta. ¿Cómo harías para que la interacción sea mínima y el valor máximo? Dame ideas para sorprender, no solo para informar.
+Mensaje del estudianteEntonces, la aplicación no tendrá asistencia humana como la de un operador. y el resto de funcionalidades son las ya mencionadas. A diferencia de los rangos de fecha que mencioné no van a ser estimados sino precisos. La aplicación está destinada solo a los compradores o también al equipo de logística? En caso de estar orientado también a los empleados, al loguearse la aplicación identificará al tipo de usuario y lo redireccionará a "su aplicación", será diferente la del comprador a la del empleado. La del usuario que solicita el pedido será como ya mencionamos y la del empleado en la pantalla principal tendrá tres botones que deribarán a diferentes interfaces/pantallas/visualizaciones, estas serán 3: Asignación de ruta, control de entrega y retroalimentación (comentarios para mejorar ya sea en aspectos de software o de logística). Exprese si está de acuerdo y si realmente debe existir este otro usuario (empleado) que menciono. Por otro lado, le pregunto, existen pioridades claras sobre la aplicación, errores que no debe cometer o funcionalidades que considera indispensables o situaciones que hay que evitar que ocurran? Existen restricciones que conozca sobre la comunicación o flujo de información en los procesos de entrega? Existe un lugar donde se encuentre toda esta información?
+Martín Ferraro ¡Excelente, vas por buen camino! Quiero claridad: la app es para ambos, clientes y empleados, pero cada experiencia debe sentirse única. Piensa en el usuario como protagonista; el empleado también merece una herramienta elegante, no un panel aburrido. Prioridad número uno: que ningún usuario dude sobre qué hacer o dónde mirar. Error imperdonable: confusión, espera innecesaria, información duplicada o dispersa. Indispensable: notificaciones relevantes, interacción mínima, sensación de control. Restricciones hay, sí: privacidad, tiempos reales, nada de datos viejos o genéricos. No existe un "manual" en Mercury; reinventamos procesos. Tu reto es capturar esa esencia sin perder foco en lo fundamental: experiencia superior, fluidez y precisión. ¿Puedes resumir la esencia en tres frases, como si fuesen el lema de la app?
+Mensaje del estudianteOkey, debe haber una fuente de datos única para que no haya información duplicada, debe haber una separación de funciones clara en la que se defina quién carga cada tipo de información, la aplicación se debe actuualizar en tiempo real para ambos tipos de usuarios y si el envío dle pedido se atrasa debe aparecer en la aplicación conla nueva fecha de entrega y el comprador debe recibir una notificación que mencione el suceso imprevisto, este mendaje debe ser empático.
+Martín Ferraro Perfecto. Quiero que la app actúe como un piano bien afinado: cada nota (dato) es única y aporta armonía, nunca ruido. Empatía en los mensajes, actualización en tiempo real, y roles claros, eso es básico. Ahora, dime: ¿cómo asegurarías que la experiencia nunca se vuelva monótona ni repetitiva, incluso cuando ocurren imprevistos? Dame una idea que haga que el usuario se sienta acompañado, no solo informado.
+Mensaje del estudianteLa experiencia no se volverá monótona porque el usuario sabrá siempre el estado de su paquete, se le comunicarátodo de forma clara y haciendóle sentir que su experiencia es lo más importante para Mercury. Gracias por el tiempo dedicado, hasta acá es suficiente.
+Martín Ferraro Has entendido la esencia. Te agradezco el foco en la experiencia, no solo en la información. Pero recuerda: la verdadera magia está en sorprender, incluso cuando el proceso es rutinario. Piensa en la app como un amigo que acompaña, no como un calendario. Si lo logras, Mercury será memorable. Me gusta tu actitud, pero nunca te conformes con lo suficiente. ¡Hasta luego!
+Mensaje del estudianteUltimas aclaraciones,  está de acuerdo con llamar a los diferentes usuarios Empleado y Comprador o los considera nombres genéricos?
+Martín Ferraro Los nombres genéricos no cuentan historias. Prefiero algo que refleje el rol y la personalidad de cada usuario. "Comprador" suena frío; busquemos algo como "Cliente Mercury" o "Protagonista". "Empleado" puede ser "Experto" o "Aliado logístico". Quiero que cada usuario se sienta valorado y parte de algo más grande. La terminología debe inspirar, no solo describir. ¿Tienes propuestas que transmitan esa idea de excelencia y pertenencia?
+Mensaje del estudianteCómo desea denominar estos estados, falta alguno? En preparación, esperando a ser despachado, pedido en camino, pedido entregado
+Martín Ferraro Los estados que mencionas van al grano, pero quiero que sean más evocadores, menos técnicos. "En preparación" podría ser "Tu pedido está tomando forma"; "Esperando a ser despachado" es muy frío, prefiero "Listo para partir". "Pedido en camino" me gusta, pero tal vez "Llegando a ti"; "Pedido entregado" debería ser "¡Mercury cumplió!". No quiero que el usuario vea sólo etapas, quiero que sienta avance y conexión. ¿Falta alguno? Si surge un imprevisto, deberíamos agregar "Atención especial" para transmitir que estamos ocupándonos personalmente. Piensa en mensajes que le hablen al corazón, no sólo a la mente.
+Mensaje del estudianteGenial, el cliente debe poder ingresar feedback?
+Martín Ferraro Por supuesto. El feedback del cliente es oro: permite afinar la experiencia, detectar señales débiles y transformar errores en oportunidades. Pero quiero que sea sencillo, directo, casi invisible. Que el usuario lo dé sin pensarlo, como dejar un aplauso o una sugerencia. No formularios interminables ni encuestas tediosas. El feedback debe ser una vía de comunicación real, que haga sentir al cliente que su voz tiene impacto. ¿Cómo garantizarías que ese feedback sea útil y genere acción, no solo datos?
+Pregunta 2
+2
+Ensayo
+Actividad
+
+
+
+A partir de la entrevista realizada con Martín Ferraro, CEO de Mercury S.A., elaborá y entregá en esta misma clase un documento escrito a continuación en el espacio de entrega que incluya: (NO subir archivo, trabajar en el espacio de entrega directamente)
+
+
+
+1. Informe o minuta de la entrevista
+
+Una síntesis breve de la reunión, con: objetivo de la entrevista; principales necesidades, deseos y expectativas expresadas por el CEO; problemas identificados y funcionalidades esperadas; y aspectos que requieren aclaración o profundización en futuras entrevistas.
+
+
+
+2. Especificación de requerimientos
+
+Identificá y formulá los requerimientos funcionales y no funcionales obtenidos durante la entrevista, tomando como referencia la norma ISO/IEC/IEEE 29148. Para cada requerimiento:
+
+Asigná un identificador único.
+Redactalo de manera clara, precisa y sin ambigüedades.
+Procurá que sea completo, consistente y verificable.
+Diferenciá correctamente los funcionales de los no funcionales.
+
+Importante: los requerimientos deben surgir de la información obtenida durante la entrevista. No incorpores funcionalidades, restricciones o condiciones que el CEO no haya expresado o validado. Cuando la información sea insuficiente, identificá los aspectos pendientes de aclaración.
+
+
+
+Sobre la conversación con Martín Ferraro: tenés que sostener un mínimo de 10 interacciones y un máximo de 30. Cuanto más profundices la entrevista ,repreguntando, reformulando y despejando ambigüedades, mejor va a ser tu informe.
+
+
+
+Respuesta
+Síntesis de la reunión:
+
+
+
+Objetivo: Obtener los requerimientos para desarrollar una aplicación intuitiva y con actualización en tiempo real con dos tipos de usuario: Cliente, representado con el nombre "Cliente Mercury" en la aplicación, y el Empleado que se visualizará como "Aliado logístico". Es una aplicación de logística y distribución en entornos urbanos le debe permitir a los clientes visualizar el estado de su paqute, desde la preparación del pedido hasta su entrega; también debe poder expresar como fue si experiencia. Por otro lado, los empleados de logística deben poder visualizar las rutas que tienen asignadas, registrar las entregas como forma de control y generar feedback para la aplicación.
+
+
+
+
+
+Necesidades, deseos y expectativas:
+
+
+
+- El CEO, Martín Ferraro, busca obtener una aplicación de logística que no sea genérica, sin embargo, debe ser intuitiva y anticipar las necesidades de los usuarios.
+
+- Se debe utilizar la terminología propuesta por el CEO:
+
+Para el estado del pedido: Tu pedido está tomando forma, Listo para repartir, Llegando a ti, Mercury cumplió!. Si surge algún imprevisto con la entrega del pedido el estado debe figurar como "Atención especial".
+
+- Los nombres de los usuarios deben ser Cliente Mercury y Aliado logístico.
+
+
+
+Principales problemas identificados:
+
+- La espera de pedidos genera ansiedad y desconfianza en los clientes por falta de información precisa.
+
+- La información se encuentra desactualizada y duplicada.
+
+
+
+Funcionalidades:
+
+Requerimientos funcionales:
+
+RF 001 - La aplicación debe notificar al cliente el estado de su pedido cada vez que se actualice en la aplicación
+
+RF 002- La aplicación debe permitir a los usuarios acceder con su email.
+
+RF 003- La aplicación debe redireccionar al usuario a la UI correspondiente según su rol.
+
+RF 004- El cliente debe poder visualizar un apartado con sus pedidos y el estado de cada uno.
+
+RF 005- El estado de cada pedido debe visualizarce en una linea recta como Tu pedido está tomando forma, Listo para repartir, Llegando a ti, Mercury cumplió!. Si surge algún imprevisto con la entrega del pedido el estado debe figurar como "Atención especial".
+
+
+
+Requerimientos no funcionales:
+
+RNF 001 - Los datos que se visualizan en la aplicación se deben actualizar en tiempo real.onversación con IA
+El escenario
+La empresa Mercury S.A., dedicada a servicios de logística y distribución en entornos urbanos, ha decidido desarrollar una nueva aplicación móvil que permita a sus clientes realizar el seguimiento en tiempo real de los pedidos, gestionar reclamos y calificar el servicio recibido.
+
+El sistema también debe integrarse con las operaciones internas para facilitar la asignación de rutas, el control de entregas y la retroalimentación de los repartidores.
+
+Actualmente, el proyecto se encuentra en la fase de inicio, y se requiere realizar la elicitación  de requerimientos. La empresa contrató a una consultora especializada en sistemas de información para esta tarea.
+
+El proceso se llevará a cabo mediante entrevistas individuales a distintos actores involucrados en el sistema. Cada actor tiene una visión parcial y plantea prioridades, restricciones y lenguaje propios. El rol del estudiante en el escenario:
+
+El/la estudiante asumirá el rol de Analista Funcional dentro del equipo consultor externo contratado por Mercury S.A. Su responsabilidad es llevar a cabo entrevistas efectivas con distintos actores del proyecto, con el objetivo de:
+
+Identificar requerimientos funcionales y no funcionales del sistema.
+Detectar conflictos, vacíos, ambigüedades o contradicciones en los requerimientos planteados por los distintos perfiles.
+Formular preguntas claras, adaptando el lenguaje y la profundidad técnica según el perfil de cada interlocutor.
+Sistematizar y documentar los requerimientos obtenidos en un informe inicial.
+El/la estudiante deberá aplicar herramientas y enfoques propios de la disciplina, como entrevistas estructuradas, mapeo de requerimientos, redacción de historias de usuario, criterios de aceptación o clasificaciones según el estándar IEEE
+
+También se espera que desarrolle habilidades blandas clave: escucha activa, reformulación, empatía, manejo de interrupciones y claridad comunicacional.
+
+
+
+
+
+
+
+
+Martín Ferraro Esta es una conversación con inteligencia artificial y las respuestas son generadas, por lo que pueden contener sesgos o no ser exactas.
+
+Hola, mi nombre es Martín Ferraro. No quiero escuchar manuales ni soluciones aburridas. Quiero una app que sea como magia para nuestros clientes: intuitiva, elegante, y que transmita excelencia desde el primer toque. Tú eres el Analista Funcional. Cuéntame tus primeras ideas sobre cómo convertir esto en realidad. Habla en términos de impacto, no de detalles técnicos. ¿Qué te imaginas?
+Pregunta 2
+2
+Ensayo
+Actividad
+
+
+
+A partir de la entrevista realizada con Martín Ferraro, CEO de Mercury S.A., elaborá y entregá en esta misma clase un documento escrito a continuación en el espacio de entrega que incluya: (NO subir archivo, trabajar en el espacio de entrega directamente)
+
+
+
+1. Informe o minuta de la entrevista
+
+Una síntesis breve de la reunión, con: objetivo de la entrevista; principales necesidades, deseos y expectativas expresadas por el CEO; problemas identificados y funcionalidades esperadas; y aspectos que requieren aclaración o profundización en futuras entrevistas.
+
+
+
+2. Especificación de requerimientos
+
+Identificá y formulá los requerimientos funcionales y no funcionales obtenidos durante la entrevista, tomando como referencia la norma ISO/IEC/IEEE 29148. Para cada requerimiento:
+
+Asigná un identificador único.
+Redactalo de manera clara, precisa y sin ambigüedades.
+Procurá que sea completo, consistente y verificable.
+Diferenciá correctamente los funcionales de los no funcionales.
+
+Importante: los requerimientos deben surgir de la información obtenida durante la entrevista. No incorpores funcionalidades, restricciones o condiciones que el CEO no haya expresado o validado. Cuando la información sea insuficiente, identificá los aspectos pendientes de aclaración.
+
+
+
+Sobre la conversación con Martín Ferraro: tenés que sostener un mínimo de 10 interacciones y un máximo de 30. Cuanto más profundices la entrevista ,repreguntando, reformulando y despejando ambigüedades, mejor va a ser tu informe.
+
+
+
+Respuesta
+Objetivo: Obtener los requerimientos para desarrollar una aplicación intuitiva y con actualización en tiempo real con dos tipos de usuario: Cliente, representado con el nombre "Cliente Mercury" en la aplicación, y el Empleado que se visualizará como "Aliado logístico". Es una aplicación de logística y distribución en entornos urbanos le debe permitir a los clientes visualizar el estado de su paqute, desde la preparación del pedido hasta su entrega; también debe poder expresar como fue si experiencia. Por otro lado, los empleados de logística deben poder visualizar las rutas que tienen asignadas, registrar las entregas como forma de control y generar feedback para la aplicación.
+
+
+
+
+
+Necesidades, deseos y expectativas:
+
+
+
+- El CEO, Martín Ferraro, busca obtener una aplicación de logística que no sea genérica, sin embargo, debe ser intuitiva y anticipar las necesidades de los usuarios.
+
+- Se debe utilizar la terminología propuesta por el CEO:
+
+Para el estado del pedido: Tu pedido está tomando forma, Listo para repartir, Llegando a ti, Mercury cumplió!. Si surge algún imprevisto con la entrega del pedido el estado debe figurar como "Atención especial".
+
+- Los nombres de los usuarios deben ser Cliente Mercury y Aliado logístico.
+
+
+
+Principales problemas identificados:
+
+- La espera de pedidos genera ansiedad y desconfianza en los clientes por falta de información precisa.
+
+- La información se encuentra desactualizada y duplicada.
+
+
+
+Funcionalidades:
+
+Requerimientos funcionales:
+
+RF 001 - La aplicación debe notificar al cliente el estado de su pedido cada vez que se actualice en la aplicación
+
+RF 002- La aplicación debe permitir a los usuarios acceder con su email.
+
+RF 003- La aplicación debe redireccionar al usuario a la UI correspondiente según su rol.
+
+RF 004- El cliente debe poder visualizar un apartado con sus pedidos y el estado de cada uno.
+
+RF 005- El estado de cada pedido debe visualizarce en una linea recta como Tu pedido está tomando forma, Listo para repartir, Llegando a ti, Mercury cumplió!.
+
+RF 006- El sistema debe mostrar al Cliente Mercury la fecha y el rango horario preciso de entrega del pedido.
+
+RF 007 - El sistema debe recalcular y mostrar la nueva fecha de entrega ante un imprevisto, enviando automáticamente una notificación explicativa al Cliente Mercury.
+
+RF 008-El sistema debe permitir al Cliente Mercury enviar feedback del servicio.
+
+RF009- EL sistema debe permitir al repartidor visualizar las rutas que tiene asignadas.
+
+RF010-EL repartidor debe poder registrar los pedidos entregados.
+
+RF011-El repartidor debe poder enviar feedback sobre la aplicación.
+
+Requerimientos no funcionales:
+
+RNF 001 - Los datos que se visualizan en la aplicación se deben actualizar en tiempo real.
