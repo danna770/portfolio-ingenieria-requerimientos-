@@ -1,0 +1,51 @@
+Ensayo
+Como articulan los requerimientos en el ciclo de vida?
+
+Según su experiencia y/o relevamiento de la literatura,  haga una contribución a lo visto en los videos de teoría, y  la clase de hpy, indicando y describiendo:
+
+-Un proceso relacionado con los requerimientos
+
+-Una técnica para aplicar en ese proceso
+
+-Un producto, ya sea input o output del proceso
+
+Respuesta
+Los requerimientos se deben obtener al iniciar un proyecto, son los cimientos para todo el proceso de análisis, diseño, desarrollo y pruebas. Deben ser claros, sin ambiguedades y completos  para así construir un sistema que satisfaga correctamente las necesidades del usuario. A diferencia de las metodologías tradicionales, las ágiles permiten comenzar el proyecto con requisitos incompletos o cambiantes, se desarrollan mediante iteraciones (sprints) con entregas incrementales y documentación menos exhaustiva que RUP.
+
+Uno de los procesos relacionados con los requerimientos es la elicitación , es decir, obtener los requerimientos provenientes de parte del cliente mediante técnicas como brainstorming, entrevistas, cuestionarios, observación del trabajo, reuniones grupales, prototipos e historias de usuario; en las cuales participan todos los interesados (si la cantidad de interesados es alta,esto podría reflejar conflictos de intereses, cada uno poseer una idea diferente del sistema que se necesita).
+
+Una técnica que se puede aplicar en la elicitación son las entrevistas. Mediante estas podemos obtener información de las personas que van a utilizar el sistema o que conocen el negocio, lo que permite entender los problemas, expectativas y requerimientos que el usuario no habpia expresado antes. Las entrevistas permiten aclarar dudas, facilitar la comunicación con los stakeholders, descubrir requerimientos implícitos y reducir malentendidos.
+
+El SRS o especificación de requerimientos es el documento que se genera después de recopilar y analizar la información obtenida de los usuarios mediante entrevistas y otras técnicas de elicitación.
+
+El SRS contiene RF (lo que debe hacer el sistema), Requisitos no funcionales (vinculados a la seguridad, rendimiento y usabilidad, etc), restricciones y reglas de negocio, necesidades y expectativas de usuario. En las siguientes etapas se utilizan como guía para el desarrollo y diseño. Además, permiten que los desarrolladores, analistas y clientes tengan una visión en común de lo que se va a construir, en fases más avanzadas se utiliza como referencia para realizar pruebas y validar que el producto final cumpla con lo solicitado.
+
+Pregunta 2
+2
+Ensayo
+Requerimientos y calidad
+
+Según su experiencia y/o relevamiento de la literatura, haga una contribución a la temática.
+
+Respuesta
+Los problemas de calidad no se suelen dar por la etapa de desarrollo, sino en la interpretación erronea de requisitos, la cual da el pie para que se construya algo diferente a lo que necesitaba el usuario.
+
+Pregunta 3
+3
+Ensayo
+Compartir reflexiones sobre el Impacto positivo / negativo de las prácticas de requerimientos. Presentar algún ejemplo concreto.
+
+Respuesta
+Sistema de turnos médicos:
+
+Positivo:
+
+Se definen todos los requisitos al principio, entrevistando a recepcionistas, médicos y pacientes.
+
+Se descubre que necesitan una funcionalidad de envío de recordatorios automático de turnos para la confirmación o cancelación de ellos, por lo que se desarrolla el sistema incluyendo esa funcionalidad.
+
+Negativo:
+
+No se indaga en el sistema de recordatorios y cancelaciones por ausencias.
+
+El sistema permite unicamente reservar turnos, despúes de implementarlo el cliente solicita esa función y se debe modificar el código, gastando tiempo y recursos.

@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portafolio de Ingeniería de Requerimientos — Dana Graziano</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- =====================================================
+       INTRO 3D: LIBRO CERRADO QUE SE ABRE Y HACE ZOOM HACIA LA PÁGINA WEB
+       ===================================================== -->
+  <div class="book-intro-overlay" id="bookIntroOverlay" aria-hidden="true">
+    <button class="book-skip-btn" id="bookSkipBtn" type="button" title="Saltar animación de apertura">Saltar intro ➔</button>
+
+    <div class="book-click-hint" id="bookClickHint" aria-live="polite">
+      <span class="hint-icon">📖</span>
+      <span class="hint-text">Hacé clic en el libro para abrirlo</span>
+    </div>
+
+    <div class="book-stage" id="bookStage">
+      <div class="book-floor-shadow"></div>
+
+      <div class="book-3d" id="book3D">
+        <!-- Tapa trasera y lomo -->
+        <div class="book-back-cover"></div>
+        <div class="book-spine"></div>
+        <!-- Grosor de hojas (arriba y derecha) -->
+        <div class="book-pages-top"></div>
+        <div class="book-pages-side"></div>
+
+        <!-- Página interior con el ÍNDICE GENERAL organizado del libro (visible al abrirse la tapa) -->
+        <div class="book-inside-page">
+          <div class="book-toc-header">
+            <div class="book-toc-badge-row">
+              <span class="book-toc-uai-pill">UAI · CURSADA 2026</span>
+              <span class="book-toc-flower">✿</span>
+            </div>
+            <h3 class="book-toc-title">ÍNDICE DE TRABAJOS</h3>
+            <p class="book-toc-subtitle">Ingeniería de Requerimientos · Prof. Marcela Samela · <strong>19 Entregas</strong></p>
+            <div class="book-toc-divider"></div>
+          </div>
+
+          <div class="book-toc-scrollable">
+            <!-- BLOQUE I: TP INTEGRADOR HAVANNA -->
+            <div class="book-toc-sec">
+              <div class="book-toc-sec-head">
+                <span class="toc-badge-tpi">🎙️ TPI</span>
+                <h4>TRABAJO PRÁCTICO INTEGRADOR — HAVANNA</h4>
+              </div>
+              <ul class="book-toc-items">
+                <li><span class="toc-n">TPI 1</span><span class="toc-t">Enunciado del Dominio · Franquicia Havanna</span><span class="toc-dots"></span><span class="toc-m">Grupo 6</span></li>
+                <li><span class="toc-n">TPI 2</span><span class="toc-t">Stakeholders, Elicitación, Cualidades e Imagen IA</span><span class="toc-dots"></span><span class="toc-m">Episodio 1</span></li>
+                <li><span class="toc-n">TPI 3</span><span class="toc-t">Especificación Completa SRS, CU, US y LEL</span><span class="toc-dots"></span><span class="toc-m">Episodio 2</span></li>
+              </ul>
+            </div>
+
+            <!-- BLOQUE II: TRABAJOS INDIVIDUALES -->
+            <div class="book-toc-sec">
+              <div class="book-toc-sec-head">
+                <span class="toc-badge-ind">👤 IND</span>
+                <h4>TRABAJOS INDIVIDUALES (11 ENTREGAS)</h4>
+              </div>
+              <ul class="book-toc-items">
+                <li><span class="toc-n">IND 01</span><span class="toc-t">Simulación #1: CEO Martín Ferraro (Clase 6)</span><span class="toc-dots"></span></li>
+                <li><span class="toc-n">IND 02</span><span class="toc-t">Simulación #2: Finanzas Lucía San Juan (Clase 7)</span><span class="toc-dots"></span></li>
+                <li><span class="toc-n">IND 03</span><span class="toc-t">Simulación #3: IT Alberto Torres (Clase 7)</span><span class="toc-dots"></span></li>
+                <li><span class="toc-n">IND 04</span><span class="toc-t">PLN y Casos de Prueba (Clase 2)</span><span class="toc-dots"></span></li>
+                <li><span class="toc-n">IND 05</span><span class="toc-t">Requerimientos y Calidad en Ciclo de Vida (Clase 3)</span><span class="toc-dots"></span></li>
+                <li><span class="toc-n">IND 06</span><span class="toc-t">Reflexión CIITI: IA Agéntica en Software (Clase 1)</span><span class="toc-dots"></span></li>
+                <li><span class="toc-n">IND 07</span><span class="toc-t">Investigación: Elicitación Asistida por IA (Clase 9)</span><span class="toc-dots"></span></li>
+                <li><span class="toc-n">IND 08</span><span class="toc-t">Lenguaje Natural y Guías de Estilo (Clase 10)</span><span class="toc-dots"></span></li>
+                <li><span class="toc-n">IND 09</span><span class="toc-t">«Ticket» en Glosario, Ontología y LEL (Clase 11)</span><span class="toc-dots"></span></li>
+                <li><span class="toc-n">IND 10</span><span class="toc-t">LEL Hemoterapia y Casos Gherkin (Clase 11)</span><span class="toc-dots"></span></li>
+                <li><span class="toc-n">IND 11</span><span class="toc-t">Casos de Uso, US y Escenarios (Clase 13)</span><span class="toc-dots"></span></li>
+              </ul>
+            </div>
+
+            <!-- BLOQUE III: TRABAJOS GRUPALES -->
+            <div class="book-toc-sec">
+              <div class="book-toc-sec-head">
+                <span class="toc-badge-grup">👥 G6</span>
+                <h4>TRABAJOS GRUPALES — GRUPO 6 (5 ENTREGAS)</h4>
+              </div>
+              <ul class="book-toc-items">
+                <li><span class="toc-n">TG 01</span><span class="toc-t">Singularidad del Software y Cualidades (Clase 1)</span><span class="toc-dots"></span></li>
+                <li><span class="toc-n">TG 02</span><span class="toc-t">Sistema de Biblioteca: Necesidades y Stakeholders (Clase 4)</span><span class="toc-dots"></span></li>
+                <li><span class="toc-n">TG 03</span><span class="toc-t">Especificación Bicicletas Compartidas (Clase 5)</span><span class="toc-dots"></span></li>
+                <li><span class="toc-n">TG 04</span><span class="toc-t">Procesos IR en Turnos de Salud (Clase 5)</span><span class="toc-dots"></span></li>
+                <li><span class="toc-n">TG 05</span><span class="toc-t">Investigación Elicitación Antonelli (Clase 4)</span><span class="toc-dots"></span></li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="book-toc-footer">
+            <span class="toc-footer-pill">Total: 19 Trabajos</span>
+            <span class="toc-click-enter">Haz clic para ingresar al portafolio ➔</span>
+          </div>
+        </div>
+
+        <!-- Primera hoja interior que se levanta suavemente al abrir (como en el video) -->
+        <div class="book-flyleaf-page">
+          <div class="flyleaf-front">
+            <div class="flyleaf-ornament">✿</div>
+            <div class="flyleaf-columns">
+              <div class="flyleaf-col">
+                <span></span><span></span><span></span><span></span><span></span><span></span>
+              </div>
+              <div class="flyleaf-col">
+                <span></span><span></span><span></span><span></span><span></span><span></span>
+              </div>
+            </div>
+          </div>
+          <div class="flyleaf-back"></div>
+        </div>
+
+        <!-- Tapa frontal 3D (con el diseño y colores de la página web) -->
+        <div class="book-front-cover">
+          <!-- Cara externa de la portada -->
+          <div class="cover-front-face">
+            <!-- Formas gráficas asimétricas y flor azul de 5 pétalos (estilo de la web + composición del video) -->
+            <svg class="cover-graphic-art" viewBox="0 0 340 460" preserveAspectRatio="none">
+              <!-- Fondo crema cálido -->
+              <rect width="340" height="460" fill="#FAF3E6" />
+              <!-- Bloque curvo asimétrico azul cobalto arriba/izquierda -->
+              <path d="M0,0 L165,0 C145,115 88,195 36,315 L0,315 Z" fill="#1B3C8D" />
+              <!-- Franja diagonal azul cobalto derecha -->
+              <path d="M235,0 L340,0 L310,165 C270,165 215,155 190,120 Z" fill="#1B3C8D" />
+              <!-- Onda orgánica celeste cerámica -->
+              <path d="M0,295 C95,255 140,155 245,165 C305,170 325,220 340,250 L340,460 L0,460 Z" fill="#94C0E9" />
+              <!-- Forma orgánica amarillo manteca abajo -->
+              <path d="M55,460 C75,325 165,245 305,250 L340,250 L340,460 Z" fill="#FDF1B4" />
+              <!-- Esquina inferior azul profundo -->
+              <path d="M275,345 C310,345 328,370 340,405 L340,460 L255,460 Z" fill="#1B3C8D" />
+              <!-- Flor orgánica azul de 5 pétalos -->
+              <g transform="translate(46, 175) scale(0.68)">
+                <path d="M70,68 C52,22 14,34 38,66 C6,74 14,112 52,92 C46,130 90,130 78,92 C118,108 128,68 92,62 C112,28 74,18 70,68 Z" fill="#1B3C8D" />
+              </g>
+              <!-- Línea curva gruesa redondeada -->
+              <path d="M225,215 C265,190 285,245 320,218" fill="none" stroke="#1B3C8D" stroke-width="14" stroke-linecap="round" />
+            </svg>
+
+            <!-- Tipografía de portada -->
+            <div class="cover-typography">
+              <div class="cover-title-block">
+                <span class="cover-kicker">PORTAFOLIO WEB</span>
+                <h2 class="cover-main-title">INGENIERÍA DE<br />REQUERIMIENTOS</h2>
+                <div class="cover-star-icon">✿</div>
+              </div>
+
+              <div class="cover-author-row">
+                <span class="cover-by-circle">by</span>
+                <div class="cover-author-name">
+                  <strong>Dana</strong>
+                  <strong>Graziano</strong>
+                </div>
+              </div>
+
+              <div class="cover-footer-meta">
+                <span>Prof. Marcela Samela</span>
+              </div>
+            </div>
+
+            <!-- Pliegue del lomo en la portada -->
+            <div class="cover-hinge-crease"></div>
+          </div>
+
+          <!-- Cara interna de la portada (visible cuando el libro se abre) -->
+          <div class="cover-inner-face">
+            <div class="inner-cover-pattern">
+              <span>✿</span><span>✿</span><span>✿</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- =====================================================
+       FLORES ORGÁNICAS AZULES Y LÍNEAS ASIMÉTRICAS A LOS COSTADOS
+       (Se mueven únicamente al scrollear; quietas si no se scrollea)
+       ===================================================== -->
+  <div class="scroll-only-art-layer" aria-hidden="true">
+
+    <!-- 1. Flor Orgánica Azul 5 Pétalos + Tallo (Arriba Izquierda) -->
+    <svg class="scroll-art-item art-flower-tl" id="artFlowerTL" viewBox="0 0 140 140">
+      <path d="M72,82 Q88,112 104,136" fill="none" stroke="#1B3C8D" stroke-width="9" stroke-linecap="round" />
+      <path d="M68,68
+               C50,24 14,34 38,66
+               C6,72 12,112 52,92
+               C46,132 88,132 78,94
+               C118,110 128,70 92,64
+               C112,30 74,18 68,68 Z"
+            fill="#1B3C8D" />
+    </svg>
+
+    <!-- 2. Líneas Asimétricas Largas en Forma de Onda + Puntos Azules (Medio Izquierda) -->
+    <svg class="scroll-art-item art-lines-l1" id="artLinesL1" viewBox="0 0 150 360">
+      <path class="scroll-draw-line" d="M30,18 C115,18 118,86 42,96 C-12,104 8,176 86,168 C142,162 132,244 48,252 C-6,258 18,332 108,334"
+            fill="none" stroke="#1B3C8D" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" />
+      <circle cx="116" cy="48" r="13" fill="#1B3C8D" />
+      <circle cx="28" cy="208" r="11" fill="#1B3C8D" />
+    </svg>
+
+    <!-- 4. Flor Orgánica Azul 5 Pétalos (Abajo Izquierda) -->
+    <svg class="scroll-art-item art-flower-bl" id="artFlowerBL" viewBox="0 0 140 150">
+      <path d="M66,85 Q48,118 35,144" fill="none" stroke="#1B3C8D" stroke-width="9" stroke-linecap="round" />
+      <path d="M70,66
+               C55,20 18,32 40,65
+               C8,70 16,110 54,90
+               C50,128 92,126 80,90
+               C120,104 126,64 90,60
+               C108,26 74,16 70,66 Z"
+            fill="#1B3C8D" />
+      <circle cx="114" cy="28" r="11" fill="#1B3C8D" />
+    </svg>
+
+    <!-- 5. Líneas Asimétricas Largas en Forma de Onda + Puntos Azules (Arriba Derecha) -->
+    <svg class="scroll-art-item art-lines-r1" id="artLinesR1" viewBox="0 0 150 350">
+      <path class="scroll-draw-line" d="M118,20 C32,22 28,90 96,102 C148,112 126,184 46,178 C-4,174 12,256 92,262 C138,266 116,328 38,330"
+            fill="none" stroke="#1B3C8D" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" />
+      <circle cx="28" cy="46" r="12" fill="#1B3C8D" />
+      <circle cx="118" cy="218" r="13" fill="#1B3C8D" />
+    </svg>
+
+    <!-- 6. Flor Orgánica Azul 5 Pétalos (Medio Derecha) -->
+    <svg class="scroll-art-item art-flower-mr" id="artFlowerMR" viewBox="0 0 140 140">
+      <path d="M68,82 Q52,114 38,136" fill="none" stroke="#1B3C8D" stroke-width="9" stroke-linecap="round" />
+      <path d="M70,68
+               C52,22 14,34 38,66
+               C6,74 14,112 52,92
+               C46,130 90,130 78,92
+               C118,108 128,68 92,62
+               C112,28 74,18 70,68 Z"
+            fill="#1B3C8D" />
+    </svg>
+
+    <!-- 8. Líneas Asimétricas Largas Curvas + Puntos Azules (Abajo Derecha) -->
+    <svg class="scroll-art-item art-lines-br" id="artLinesBR" viewBox="0 0 150 310">
+      <path class="scroll-draw-line" d="M26,24 C26,108 124,104 122,34 C120,136 22,138 30,214 C38,284 126,274 114,218"
+            fill="none" stroke="#1B3C8D" stroke-width="20" stroke-linecap="round" stroke-linejoin="round" />
+      <circle cx="74" cy="42" r="13" fill="#1B3C8D" />
+      <circle cx="84" cy="282" r="12" fill="#1B3C8D" />
+    </svg>
+
+  </div>
+
+  <!-- Main Framed Canvas (Diseño original intacto) -->
+  <div class="page-shell">
+
+    <!-- Top Checkered / Striped Sky Blue & Cobalt Bar -->
+    <div class="checker-bar"></div>
+
+    <!-- Navigation -->
+    <header class="top-nav">
+      <div class="brand-badge">
+        <span class="brand-flower">✿</span>
+        <span>Dana Graziano · Ingeniería de Requerimientos · UAI</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#bloque-integrador" onclick="applyModalityFilter('integrador')" class="nav-link">🎙️ TP Integrador (3)</a>
+        <a href="#explorador-trabajos" onclick="applyModalityFilter('individual')" class="nav-link">👤 Individuales (11)</a>
+        <a href="#explorador-trabajos" onclick="applyModalityFilter('grupal')" class="nav-link">👥 Grupales (5)</a>
+        <a href="#material-estudio" class="nav-link">📚 Material de Estudio (2)</a>
+        <a href="#indice-flotante" onclick="toggleFloatingIndex(true); return false;" class="nav-link nav-link-indice">📑 Índice ✿</a>
+      </nav>
+    </header>
+
+    <!-- Cream Hero Section -->
+    <section class="hero-section">
+      <div class="hero-copy">
+        <span class="hero-kicker">Universidad Abierta Interamericana (UAI)</span>
+        <h1 class="hero-title">¡Hola! Soy Dana Graziano</h1>
+        <p class="hero-description">
+          Portafolio académico de la asignatura <strong>Ingeniería de Requerimientos</strong>, dictada por la docente <strong>Prof. Marcela Samela</strong> en la <strong>Universidad Abierta Interamericana (UAI)</strong>.
+        </p>
+        <p class="hero-description">
+          Aquí se presenta la descripción y el desarrollo completo de todos los trabajos propuestos en la asignatura, organizados en <strong>producciones individuales de cursada (11)</strong>, <strong>producciones grupales de cursada del Grupo 6 (5)</strong> y el <strong>Trabajo Práctico Integrador «Podcast del Ingeniero» (3 Entregas grupales)</strong>.
+        </p>
+
+        <div class="hero-actions">
+          <button type="button" onclick="applyModalityFilter('integrador')" class="btn-dollop btn-yellow">🎙️ Ver TP Integrador · Havanna (3)</button>
+          <button type="button" onclick="applyModalityFilter('individual')" class="btn-dollop">👤 Ver Individuales (11)</button>
+          <button type="button" onclick="applyModalityFilter('grupal')" class="btn-dollop">👥 Ver Grupales Cursada (5)</button>
+        </div>
+      </div>
+
+      <!-- Right Visual Summary Collage -->
+      <div class="hero-visual-box">
+        <div class="hero-stats-grid">
+          <div class="stat-card" onclick="applyModalityFilter('todos')" title="Ver todos los trabajos">
+            <div class="stat-number" data-target="19" data-pad="false">0</div>
+            <div class="stat-label">Trabajos Totales</div>
+          </div>
+          <div class="stat-card" onclick="applyModalityFilter('individual')" title="Filtrar trabajos individuales">
+            <div class="stat-number" data-target="11" data-pad="false">0</div>
+            <div class="stat-label">👤 Individuales</div>
+          </div>
+          <div class="stat-card" onclick="applyModalityFilter('grupal')" title="Filtrar trabajos grupales del Grupo 6">
+            <div class="stat-number" data-target="8" data-pad="true">00</div>
+            <div class="stat-label">👥 Grupo 6 (Total)</div>
+          </div>
+          <div class="stat-card" onclick="applyModalityFilter('integrador')" title="Filtrar TP Integrador Podcast del Ingeniero">
+            <div class="stat-number" data-target="3" data-pad="true">00</div>
+            <div class="stat-label">🎙️ TP Integrador</div>
+          </div>
+        </div>
+        <div class="hero-visual-caption">
+          <span class="caption-flower">✿</span>
+          <span class="caption-text">Hacé clic en cualquier tarjeta para filtrar por modalidad</span>
+          <span class="caption-flower">✿</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Wavy Text Banner Divider -->
+    <div class="wavy-divider-wrapper">
+      <svg class="wavy-svg" viewBox="0 0 1200 105" preserveAspectRatio="none">
+        <defs>
+          <path id="textWavePath" d="M 0,48 Q 150,14 300,48 T 600,48 T 900,48 T 1200,48" />
+        </defs>
+        <path d="M 0,68 Q 150,34 300,68 T 600,68 T 900,68 T 1200,68 L 1200,110 L 0,110 Z" fill="#1B3C8D" />
+        <text class="wavy-text" dy="-4">
+          <textPath href="#textWavePath" startOffset="0%">
+            ✿ INGENIERÍA DE REQUERIMIENTOS ✿ TRABAJOS INDIVIDUALES Y GRUPO 6 ✿ DANA GRAZIANO ✿ INGENIERÍA DE REQUERIMIENTOS ✿
+          </textPath>
+        </text>
+      </svg>
+    </div>
+
+    <!-- Royal Blue Showcase Section: The 3 AI Interview Simulations -->
+    <section class="blue-showcase-section" id="simulaciones-destacadas">
+      <div class="section-header-center">
+        <h2 class="section-title-light">Simulaciones de Entrevistas con IA</h2>
+        <p class="section-subtitle-light">
+          Caso de estudio <strong>Mercury S.A.</strong> — Hacé clic en cualquiera de los 3 perfiles entrevistados para abrir su conversación completa con IA y ver debajo la documentación de requerimientos que elaboré.
+        </p>
+      </div>
+
+      <div class="pillars-grid">
+        <!-- Pillar 1: Martín Ferraro -->
+        <div class="pillar-item" onclick="jumpToWork('sim-martin-ferraro')">
+          <div class="pillar-icon-blob">✨</div>
+          <span class="pillar-role">Simulación #1 · CEO</span>
+          <h3 class="pillar-name">Martín Ferraro</h3>
+          <p class="pillar-desc">
+            Visión ejecutiva de la app móvil, experiencia sin fricción, estados evocadores y perfiles «Cliente Mercury» y «Aliado logístico».
+          </p>
+          <span class="btn-dollop">Abrir conversación + Doc ✿</span>
+        </div>
+
+        <!-- Pillar 2: Lucía San Juan -->
+        <div class="pillar-item" onclick="jumpToWork('sim-lucia-sanjuan')">
+          <div class="pillar-icon-blob">📊</div>
+          <span class="pillar-role">Simulación #2 · Finanzas</span>
+          <h3 class="pillar-name">Lucía San Juan</h3>
+          <p class="pillar-desc">
+            Carga masiva de hasta 1000 facturas en &lt;5 min, conciliación automática de pagos, reportes de Inteligencia de Negocios y 20 RF.
+          </p>
+          <span class="btn-dollop btn-yellow">Abrir conversación + Doc ✿</span>
+        </div>
+
+        <!-- Pillar 3: Alberto Torres -->
+        <div class="pillar-item" onclick="jumpToWork('sim-alberto-torres')">
+          <div class="pillar-icon-blob">🔐</div>
+          <span class="pillar-role">Simulación #3 · Jefe de IT</span>
+          <h3 class="pillar-name">Alberto Torres</h3>
+          <p class="pillar-desc">
+            Integración mediante APIs REST/OAuth2 con ERP, sistema de ruteo y entregas, firma digital, notificaciones push y Ley 25.326.
+          </p>
+          <span class="btn-dollop">Abrir conversación + Doc ✿</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Middle Checkered Bar -->
+    <div class="checker-bar bottom-border-none"></div>
+
+    <!-- Sticky Filter & Search Controls (Separating Individuales vs Grupales Grupo 6) -->
+    <section class="controls-section" id="explorador-trabajos">
+      <div class="controls-bar">
+        <div class="filter-tabs" role="tablist">
+          <button class="filter-btn active" data-filter="todos">Todos los trabajos (19)</button>
+          <button class="filter-btn" data-filter="integrador">🎙️ TP Integrador · Havanna (3)</button>
+          <button class="filter-btn" data-filter="individual">👤 Trabajos Individuales (11)</button>
+          <button class="filter-btn" data-filter="grupal">👥 Grupales Cursada · Grupo 6 (5)</button>
+          <button class="filter-btn" data-filter="simulaciones">💬 Simulaciones IA (3)</button>
+        </div>
+
+        <div class="right-controls">
+          <div class="search-input-wrap">
+            <span class="search-icon">🔍</span>
+            <input
+              type="text"
+              id="searchInput"
+              class="search-input"
+              placeholder="Buscar trabajo, Grupo 6, LEL..."
+              aria-label="Buscar trabajo"
+            />
+          </div>
+          <button id="toggleAllBtn" class="btn-dollop btn-yellow">Extender todos ✿</button>
+        </div>
+      </div>
+      <div style="margin-top: 10px; font-size: 0.85rem; font-weight: 700; color: var(--text-muted);" id="worksCountLabel">
+        Mostrando 16 de 16 trabajos (11 individuales · 5 grupales de Grupo 6)
+      </div>
+    </section>
+
+    <!-- Scrollable Works Feed Separated into Individuales and Grupales (Grupo 6) -->
+    <main class="works-feed-section">
+      <div id="worksGrid">
+        <!-- Populated dynamically by app.js from data.js -->
+      </div>
+    </main>
+
+    <!-- =====================================================
+         NUEVA SECCIÓN: MATERIAL DE ESTUDIO Y BIBLIOGRAFÍA DE CURSADA
+         (Presentaciones Beeline, normas ISO/IEEE, LEL y guías prácticas)
+         ===================================================== -->
+    <section class="study-materials-section" id="material-estudio">
+      <div class="materials-header-container">
+        <div class="materials-kicker-row">
+          <span class="materials-kicker">RESÚMENES DE ESTUDIO</span>
+          <span class="materials-kicker-badge">2 Resúmenes Propios</span>
+        </div>
+        <h2 class="materials-main-title">Material de Estudio de Cursada</h2>
+        <p class="materials-description">
+          Material de estudio de la asignatura <strong>Ingeniería de Requerimientos</strong> (UAI · Prof. Marcela Samela). Incluye los resúmenes integrales de examen elaborados por <strong>Dana Graziano</strong> para el Primer y Segundo Parcial, que cubren entre otros temas las normas <strong>IEEE 830</strong> e <strong>ISO/IEC/IEEE 29148:2018</strong>.
+        </p>
+
+        <!-- Filtros y buscador dinámico de materiales -->
+        <div class="materials-filter-bar">
+          <div class="materials-tabs-group" id="materialsFilterTabs">
+            <button class="mat-tab-pill active" data-category="all">Todos (2)</button>
+            <button class="mat-tab-pill" data-category="resumenes">📝 Resúmenes Parciales (2)</button>
+          </div>
+          <div class="materials-search-box">
+            <span class="materials-search-icon">🔍</span>
+            <input type="text" id="materialsSearchInput" class="materials-search-input" placeholder="Buscar por tema, norma (ej. ISO, IEEE, Resumen)..." aria-label="Buscar material de estudio" />
+          </div>
+        </div>
+      </div>
+
+      <!-- Grid dinámico de materiales de estudio -->
+      <div class="materials-cards-grid" id="materialsGrid">
+        <!-- Generado dinámicamente desde app.js con STUDY_MATERIALS de materials.js -->
+      </div>
+    </section>
+
+    <!-- Bottom Checkered Sky Blue & Cobalt Bar -->
+    <div class="checker-bar bottom-border-none"></div>
+
+    <!-- Pastel Butter Yellow Footer -->
+    <footer class="butter-footer" id="pie-pagina">
+      <div class="footer-columns">
+        <div class="footer-col">
+          <div class="footer-highlight-card">
+            <p><strong>Alumna:</strong> Dana Graziano</p>
+            <p><strong>Asignatura:</strong> Ingeniería de Requerimientos (T1-23-21)</p>
+            <p><strong>Universidad:</strong> Universidad Abierta Interamericana (UAI)</p>
+            <p><strong>Docente:</strong> Prof. Marcela Samela</p>
+            <p><strong>Compañeras del Grupo 6:</strong> Agostina Melegari y Daniela Benítez</p>
+          </div>
+        </div>
+
+        <div class="footer-col">
+          <ul class="footer-links">
+            <li><a href="#explorador-trabajos" onclick="applyModalityFilter('integrador')">🎙️ Ver TP Integrador — «Podcast del Ingeniero» (3)</a></li>
+            <li><a href="#explorador-trabajos" onclick="applyModalityFilter('individual')">👤 Ver 11 Producciones Individuales de Cursada</a></li>
+            <li><a href="#explorador-trabajos" onclick="applyModalityFilter('grupal')">👥 Ver Producciones Grupales · Grupo 6 (Total: 8)</a></li>
+            <li><a href="#material-estudio">📚 Ver Repositorio de Material de Estudio (5 Documentos Esenciales)</a></li>
+            <li><a href="#indice-flotante" onclick="toggleFloatingIndex(true); return false;">📑 Abrir Índice General de Trabajos ✿</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <p style="font-weight: 800; text-transform: uppercase; letter-spacing: 0.04em;">
+            INTEGRANTES DEL GRUPO 6 (PRODUCCIONES GRUPALES)
+          </p>
+          <p style="font-weight: 700;">
+            Dana Graziano, Agostina Melegari y Daniela Benítez
+          </p>
+          <div class="footer-pill-box">
+            <span>UAI · Ing. de Requerimientos · Prof. Marcela Samela</span>
+            <span>✿</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Giant Cobalt Blue Wordmark at Bottom: "Dana Graziano" con el punto de la "i" que rebota desde la "a" hasta la "i" -->
+      <div class="footer-giant-word" id="footerGiantWord" aria-label="Dana Graziano">
+        <span class="footer-char">D</span><span class="footer-char">a</span><span class="footer-char">n</span><span class="footer-char">a</span><span class="footer-char">&nbsp;</span><span class="footer-char" id="charG">G</span><span class="footer-char">r</span><span class="footer-char" id="charStartA">a</span><span class="footer-char">z</span><span class="footer-char footer-char-i" id="charI">&imath;<span class="i-bouncing-dot" id="iBouncingDot"></span></span><span class="footer-char">a</span><span class="footer-char">n</span><span class="footer-char">o</span>
+      </div>
+    </footer>
+
+  </div>
+
+  <!-- =====================================================
+       BOTÓN FLOTANTE DEL ÍNDICE DE TRABAJOS
+       (Pill redondeada cobalt/butter con flor)
+       ===================================================== -->
+  <button id="floatingIndexBtn" class="floating-index-btn" type="button" aria-label="Abrir Índice de Trabajos" title="Abrir Índice de Trabajos">
+    <span class="floating-index-icon">📑</span>
+    <span class="floating-index-label">Índice</span>
+    <span class="floating-index-flower">✿</span>
+  </button>
+
+  <!-- =====================================================
+       VENTANA FLOTANTE DEL ÍNDICE
+       (Rectángulo de puntas redondeadas y fondo azul transparente difuminado)
+       ===================================================== -->
+  <aside id="floatingIndexDrawer" class="floating-index-drawer" aria-hidden="true" role="dialog" aria-labelledby="floatingIndexHeading">
+    <div class="floating-index-glass-card">
+      <div class="floating-index-topbar">
+        <div class="floating-index-badge-group">
+          <span class="floating-index-pill">UAI · CURSADA 2026</span>
+          <h3 id="floatingIndexHeading" class="floating-index-title">Índice de Trabajos</h3>
+        </div>
+        <button id="floatingIndexClose" class="floating-index-close-btn" type="button" aria-label="Cerrar índice">&times;</button>
+      </div>
+
+      <!-- Filtros rápidos dentro del índice -->
+      <div class="floating-index-filter-chips">
+        <button class="index-chip active" data-modality="all">Todos (19)</button>
+        <button class="index-chip" data-modality="integrador">🎙️ TPI (3)</button>
+        <button class="index-chip" data-modality="individual">👤 Ind (11)</button>
+        <button class="index-chip" data-modality="grupal">👥 Grupo 6 (5)</button>
+        <button class="index-chip" data-modality="simulacion">💬 IA (3)</button>
+      </div>
+
+      <!-- Buscador rápido dentro del índice -->
+      <div class="floating-index-search">
+        <input type="text" id="floatingIndexSearchInput" placeholder="Filtrar por título, número o tema..." aria-label="Filtrar índice" />
+      </div>
+
+      <!-- Lista de trabajos con scrollbar estilizada -->
+      <div class="floating-index-scroll-list" id="floatingIndexScrollList">
+        <!-- Generado dinámicamente desde app.js -->
+      </div>
+
+      <div class="floating-index-drawer-footer">
+        <span>Total: 19 trabajos académicos organizados</span>
+        <span class="drawer-tip">Haz clic para ir directamente al trabajo</span>
+      </div>
+    </div>
+  </aside>
+
+  <script src="data.js"></script>
+  <script src="materials.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

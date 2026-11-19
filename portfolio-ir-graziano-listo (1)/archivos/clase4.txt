@@ -1,0 +1,168 @@
+TP - Clase 4 (obligatorio)
+
+
+RESPONDER LAS TRES PREGUNTAS DEL TP
+
+
+
+RESULTADOS DE APRENDIZAJE
+
+T1-09-60-3-2-2-RA1: [Obtiene] + [conocimiento de un dominio] + [para definir los requerimientos d software] + [Utilizando técnicas de elicitación, análisis y validación.][Propone] + [métodos y técnicas] + [Para analizar requerimientos] + [Para especificar requerimientos] + [utilizando buenas y mejores prácticas establecidas](el que corresponda)
+
+
+CRITERIOS DE EVALUACIÓN
+
+A partir de esta actividad, se espera formalizar aspectos relevantes relacionados al ejercicio "Sistema de la biblioteca de la Facultad" revisado previamente.
+Se espera que el estudiante pueda Enunciar al menos tres ejemplos de:
+Requerimientos del usuario
+Requerimientos del sistema
+
+
+INGENIERÍA DE REQUERIMIENTOS
+
+EJEMPLO TRABAJO PRÁCTICO DE CURSADA
+
+ 
+
+OBJETIVO: 
+
+Realizar el Trabajo Práctico de Cursada de la materia. 
+
+ 
+
+CRITERIOS DE CALIFICACIÓN:
+
+Para aprobar el presente trabajo práctico se deberá sumar 6 puntos de un total de 10 puntos (60%).
+
+ 
+
+CRITERIOS DE RESOLUCIÓN:
+
+Los estudiantes recibirán la consigna del trabajo práctico a la mitad de la cursada de la materia (Aprox. Semana 4 / Clase 3 y 4 ->
+Se realiza la entrega de las consignas y explicación de la metodología de evaluación por parte del docente a los estudiantes.
+El trabajo se desarrollará en equipo con un máximo de 5 integrantes.
+La fecha de entrega final del TP será en el anteúltimo encuentro
+El TP se compone por 3 etapas.
+ 
+
+METODOLOGÍA DE EVALUACIÓN:
+
+ 
+
+Cada grupo deberá desarrollar un enunciado, que servirá como su caso de estudio para llevar a cabo las entregas de las consignas solicitadas y poder así aplicar los contenidos teóricos desarrollados y adquiridos por el estudiante durante la cursada.
+Se les brindará un enunciado de ejemplo “Sistema de biblioteca de una Facultad de Informática” a modo de guía de enunciado a desarrollar.
+El Trabajo Práctico tendrá 5 etapas:
+Etapa 1: Se realizará la entrega del enunciado por parte de los estudiantes, con el fin de dar a conocer al docente, el caso de estudio/negocio a utilizar. Este se subirá cómo entrega en la plataforma de UAI Ultra en formato digital en la fecha establecida.
+Etapa 2Se realizará la entrega de las consignas solicitadas, con el fin que el docente realice las observaciones pertinentes y seguimiento del mismo.
+Etapa 3: Se realizará el cierre formal del Trabajo Práctico a través de una exposición o como el docente indique en la consigna, en la que se plasmará una nota final. Asimismo, el grupo deberá realizar una defensa oral/coloquial de lo entregado. 
+El enfoque de evaluación de la exposición será en forma individual, ya que dicha nota dependerá tanto de la exposición cómo de la participación del estudiante. 
+
+
+
+RESOLVER  LA ACTIVIDAD GRUPAL A PARTIR DEL SEIGUIENTE ENUNCIADO
+
+ 
+
+ENUNCIADO EJEMPLO:
+
+Stakeholder de un sistema de biblioteca
+
+Descripción
+
+• Considerar un sistema de biblioteca de una Facultad de Informática.
+
+• La biblioteca tiene tres diferentes tipos de materiales: libros de texto, libros de consulta y publicaciones periódicas. Además cuenta con acceso a sistemas de bases de datos de material bibliográfico.
+
+• Todo el material bibliográfico se encuentra en la biblioteca, por lo que todos los usuarios de la Facultad deben recurrir a ella
+
+• Las áreas organizacionales de la Facultad son: Decano, Vicedecano, Secretaria Académica, Secretario de Ciencia, Técnica y Postgrado, Secretaría de Extensión, Dirección de Ingreso, Dirección de Servicios a Graduados
+
+• Funcionalmente la biblioteca depende de la Secretaría Académica
+
+• Se quiere desarrollar un sistema automatizado de gestión de la biblioteca con el fin de reducir el trabajo manual a su mínima expresión, por lo que se tiene como objetivo automatizar la mayor parte de las funciones. Para ello se contratará una empresa de desarrollo de sistemas que tendrá la responsabilidad de construir el sistema requerido
+
+
+Pregunta 1
+Sin calificar
+Considerar el ejercicio del Sistema de la Biblioteca de la Facultad
+
+Enunciar al menos tres ejemplos de:
+
+• Necesidades
+
+• Deseos
+
+• Expectativas
+
+Su respuesta
+•	NECESIDADES: 
+
+- Registrar y controlar préstamo y devolución del material bibliográfico (libros de texto, libros de consulta y publicaciones periódicas)
+
+- Consulta disponibilidad de un material específico antes de retirarlo
+
+- Gestión de sanciones por incumplimiento de devolución o devolución en mal estado
+
+- Control de accesos para limitar solo al personal autorizado el uso del sistema
+
+- Trazabilidad de ejemplares para saber su disponibilidad y su ubicación.
+
+- Acceso y gestión de las bases de datos de material bibliográfico con las que cuenta la biblioteca.
+
+- Poder gestionar y acceder los tres tipos de materiales de lectura de la biblioteca desde un solo sitio.
+
+- Proporcionar a la secretaría académica acceso a informes y datos estadísticos sobre el uso de la biblioteca y el control de materiales.
+
+- Automatizar el sistema de gestión de la biblioteca con el fin de reducir el trabajo manual.
+
+
+
+•	DESEOS:
+
+- Recibir notificaciones (por mail o msj) como recordatorio para cuando se acerca la fecha de vencimiento de un préstamo
+
+- Tener un sistema de recomendaciones de material bibliográfico que tenga en cuenta el historial de consultas del usuario
+
+- Poder reservar online un material que esté actualmente prestado
+
+-Cargar y categorizar toda la bibliografía de la facultad en el sistema.
+
+- Permitir el acceso de todos los estudiantes a la biblioteca, autenticándolos para validar su perfil de usuario.
+
+
+
+•	EXPECTATIVAS: 
+
+- Que la información sobre el estado de los préstamos sea confiable y esté siempre actualizada
+
+- Que se reduzca al mínimo el trabajo manual de la biblioteca
+
+- Mejorar eficiencia operativa
+
+- Mejorar la calidad del servicio de biblioteca de la facultad
+
+- Reducir tiempos de gestión.
+
+
+Pregunta 2
+Sin calificar
+Explique las diferencias entre los requerimientos del usuario y los requerimientos del sistema
+
+Su respuesta
+Los requerimientos de usuario describen las necesidades, objetivos o expectativas del usuario o del negocio. Se expresan de manera sencilla y sin tantos detalles técnicos en lenguaje natural, comprensible para los clientes, usuarios y stakeholders. Responden a la pregunta ¿Qué necesita que haga el sistema?. Se utilizan para comunicar y validar las necesidades del negocio. La ingeniería de requerimientos busca descubrir y especificar lo que los usuarios desean del sistema, incluyendo deseos y expectativas.
+
+Ejemplos: Desarrollar un sistema automatizado de gestión de la biblioteca, reducir el trabajo manual y automatizar las funciones de la biblioteca.
+
+
+Por otro lado, los requerimientos del sistema son especificaciones más detalladas, estructuradas, claras y técnicas que los requerimientos de usuario.Responden a "¿Qué debe hacer con exactitud el sistema para satisfacer la necesidad del cliente?", y cómo debe funcionar el sistema para cumplir con esas necesidades. Están dirigidos a los analistas, diseñadores, desarrolladores y testers. Además sirven como base para el diseño, la implementación y las pruebas.
+
+Ejemplos: El sistema deberá administrar el acceso a bases de datos bibliográficas, gestionar préstamos y devoluciones del material.
+
+Pregunta 3
+Sin calificar
+Considerar el ejercicio del Sistema de la Biblioteca de la Facultad.
+
+Enunciar quienes son los stakeholders
+
+Su respuesta
+Los stakeholders son: el Decano y Vicedecano, la Secretaría Académica, el Secretario de Ciencia, Técnica y Postgrado, la Secretaría de Extensión, la Dirección de Ingreso, la Dirección de Servicios a Graduados, bibliotecarios y personal de la facultad, estudiantes, docentes e investigadores, y la empresa encargada de desarrollar el sistema.
