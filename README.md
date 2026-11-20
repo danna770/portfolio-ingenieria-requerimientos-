@@ -15,6 +15,6 @@ HTML · CSS · JavaScript (sin frameworks). Los contenidos de cada trabajo está
 
 ## Ver el sitio
 
-👉 https://danna770.github.io/portfolio-ingenieria-requerimientos/
+👉 https://danna770.github.io/portfolio-ingenieria-requerimientos-/
 
 Para verlo en tu compu, abrí `index.html` en el navegador.
