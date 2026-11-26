@@ -262,7 +262,6 @@
         <a href="#bloque-integrador" onclick="applyModalityFilter('integrador')" class="nav-link">🎙️ TP Integrador (3)</a>
         <a href="#explorador-trabajos" onclick="applyModalityFilter('individual')" class="nav-link">👤 Individuales (11)</a>
         <a href="#explorador-trabajos" onclick="applyModalityFilter('grupal')" class="nav-link">👥 Grupales (5)</a>
-        <a href="#material-estudio" class="nav-link">📚 Material de Estudio (2)</a>
         <a href="#indice-flotante" onclick="toggleFloatingIndex(true); return false;" class="nav-link nav-link-indice">📑 Índice ✿</a>
       </nav>
     </header>
@@ -414,39 +413,6 @@
       </div>
     </main>
 
-    <!-- =====================================================
-         NUEVA SECCIÓN: MATERIAL DE ESTUDIO Y BIBLIOGRAFÍA DE CURSADA
-         (Presentaciones Beeline, normas ISO/IEEE, LEL y guías prácticas)
-         ===================================================== -->
-    <section class="study-materials-section" id="material-estudio">
-      <div class="materials-header-container">
-        <div class="materials-kicker-row">
-          <span class="materials-kicker">RESÚMENES DE ESTUDIO</span>
-          <span class="materials-kicker-badge">2 Resúmenes Propios</span>
-        </div>
-        <h2 class="materials-main-title">Material de Estudio de Cursada</h2>
-        <p class="materials-description">
-          Material de estudio de la asignatura <strong>Ingeniería de Requerimientos</strong> (UAI · Prof. Marcela Samela). Incluye los resúmenes integrales de examen elaborados por <strong>Dana Graziano</strong> para el Primer y Segundo Parcial, que cubren entre otros temas las normas <strong>IEEE 830</strong> e <strong>ISO/IEC/IEEE 29148:2018</strong>.
-        </p>
-
-        <!-- Filtros y buscador dinámico de materiales -->
-        <div class="materials-filter-bar">
-          <div class="materials-tabs-group" id="materialsFilterTabs">
-            <button class="mat-tab-pill active" data-category="all">Todos (2)</button>
-            <button class="mat-tab-pill" data-category="resumenes">📝 Resúmenes Parciales (2)</button>
-          </div>
-          <div class="materials-search-box">
-            <span class="materials-search-icon">🔍</span>
-            <input type="text" id="materialsSearchInput" class="materials-search-input" placeholder="Buscar por tema, norma (ej. ISO, IEEE, Resumen)..." aria-label="Buscar material de estudio" />
-          </div>
-        </div>
-      </div>
-
-      <!-- Grid dinámico de materiales de estudio -->
-      <div class="materials-cards-grid" id="materialsGrid">
-        <!-- Generado dinámicamente desde app.js con STUDY_MATERIALS de materials.js -->
-      </div>
-    </section>
 
     <!-- Bottom Checkered Sky Blue & Cobalt Bar -->
     <div class="checker-bar bottom-border-none"></div>
@@ -469,7 +435,6 @@
             <li><a href="#explorador-trabajos" onclick="applyModalityFilter('integrador')">🎙️ Ver TP Integrador — «Podcast del Ingeniero» (3)</a></li>
             <li><a href="#explorador-trabajos" onclick="applyModalityFilter('individual')">👤 Ver 11 Producciones Individuales de Cursada</a></li>
             <li><a href="#explorador-trabajos" onclick="applyModalityFilter('grupal')">👥 Ver Producciones Grupales · Grupo 6 (Total: 8)</a></li>
-            <li><a href="#material-estudio">📚 Ver Repositorio de Material de Estudio (5 Documentos Esenciales)</a></li>
             <li><a href="#indice-flotante" onclick="toggleFloatingIndex(true); return false;">📑 Abrir Índice General de Trabajos ✿</a></li>
           </ul>
         </div>
@@ -547,7 +512,6 @@
   </aside>
 
   <script src="data.js"></script>
-  <script src="materials.js"></script>
   <script src="app.js"></script>
 </body>
 </html>
